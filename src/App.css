@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.page {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.light-text {
+  color: #d1d5d9;
+}
+
+.text-white-bg {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-no-parallax {
+  background: #9ec5e9;
+}
