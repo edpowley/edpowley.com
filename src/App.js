@@ -172,7 +172,9 @@ let projects = [
       <p>Solo project.</p>
     </>,
     technologies: ["Unity", "C#"],
-    buttons: [<LinkButton url="dl/SpaceCaves_prealpha_296.zip" text="Executable (Alpha version, Windows)" />],
+    buttons: [
+      //<LinkButton url="dl/SpaceCaves_prealpha_296.zip" text="Executable (Alpha version, Windows)" />
+    ],
     embed: <YoutubeVideo src="https://www.youtube.com/embed/Ar5OnpKMUYQ" />
   },
   {
