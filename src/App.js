@@ -326,6 +326,8 @@ function App() {
               <p>The following is a selection of my software development / creative technology projects,
                 in roughly reverse chronological order.
               </p>
+              <p>I also have an <a href="http://mcts.ai/edpowley">academic homepage</a> with a list of publications.
+              </p>
             </div>
           </div>
         </div>
