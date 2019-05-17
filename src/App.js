@@ -85,10 +85,11 @@ let projects = [
     description: <>
       <p>This website. A portfolio website developed in React and hosted on GitHub Pages.</p>
     </>,
-    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    technologies: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
     buttons: [
       <GitHubButton url="https://github.com/edpowley/edpowley.com" />
-    ]
+    ],
+    embed: <ImageEmbed src={require("./img/edpowleydotcom.png")} />
   },
   {
     name: "Wevva",
