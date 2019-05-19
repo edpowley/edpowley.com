@@ -29,6 +29,19 @@ class YoutubeVideo extends Component
   }
 }
 
+class VimeoVideo extends Component
+{
+  render()
+  {
+    return (
+      <IFrameEmbed>
+        <iframe class="embed-responsive-item rounded" src={this.props.src} frameborder="0"
+          allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </IFrameEmbed>
+    );
+  }
+}
+
 class ImageEmbed extends Component
 {
   static defaultProps = {alt: "Screenshot"};
@@ -81,6 +94,22 @@ class GooglePlayStoreButton extends Component
 
 let projects = [
   {
+    name: "hiveSynth",
+    description: <>
+      <p>
+        A virtual modular analogue synthesiser with a unique augmented reality interface.
+        It gives musicians the ability to design and play synthesisers built out of limitless numbers of virtual components.
+        In contrast to existing virtual modular synthesisers which are limited to the flat screen, 
+        hiveSynth uses room-scale virtual/augmented/mixed reality to provide an intuitive 3D interface.
+      </p>
+      <p>Developed by <a href="https://beesting.xyz">Beesting Labs</a>.</p>
+    </>,
+    technologies: ["Unity", "C#", "Juce", "C++", "ARKit"],
+    buttons: [],
+    embed: <VimeoVideo src="https://player.vimeo.com/video/336929104" />,
+    bgImage: require("./img/hivesynth-background.jpg")
+  },
+  {
     name: "edpowley.com",
     description: <>
       <p>This website. A portfolio website developed in React and hosted on GitHub Pages.</p>
@@ -118,9 +147,7 @@ let projects = [
     </>,
     technologies: ["Unity", "C#", "Hololens", "Vuforia", "Arduino"],
     buttons: [<LinkButton url="https://www.falmouth.ac.uk/research/programmes/digital-creativity/augmented-telegrapher" />],
-    embed: <IFrameEmbed>
-      <iframe class="embed-responsive-item rounded" src="https://player.vimeo.com/video/265748699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </IFrameEmbed>,
+    embed: <VimeoVideo src="https://player.vimeo.com/video/265748699" />,
     bgImage: require("./img/augtel-background.jpg")
   },
   {
