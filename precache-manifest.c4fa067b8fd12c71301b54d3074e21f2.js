@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50a42e0502afbe545e29637c68a27a04",
+    "revision": "889b20edb15218082184f551731c2619",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "76b106ca2be03cfc25a1",
+    "revision": "baf982e73ffdbd8adb3a",
     "url": "/static/css/main.33098ede.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0f351643.chunk.js"
   },
   {
-    "revision": "76b106ca2be03cfc25a1",
-    "url": "/static/js/main.c4f18786.chunk.js"
+    "revision": "baf982e73ffdbd8adb3a",
+    "url": "/static/js/main.d48e3fec.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "514b254237a7fac9cee8195d3e5d6ad3",
     "url": "/static/media/edpowleydotcom.514b2542.png"
+  },
+  {
+    "revision": "7fd4d6c86032fe6223b2ec21305aac5a",
+    "url": "/static/media/hivesynth-background.7fd4d6c8.jpg"
   },
   {
     "revision": "f18a6d52b33dfaf2dce249dbd16fbb43",
