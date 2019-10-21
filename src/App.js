@@ -130,7 +130,6 @@ let projects = [
     </>,
     technologies: ["Swift", "SpriteKit"],
     buttons: [
-      <LinkButton url="http://www.wevvagame.com/" />,
       <IOSAppStoreButton url="https://itunes.apple.com/us/app/wevva/id1322519841?mt=8" />
     ],
     embed: <YoutubeVideo src="https://www.youtube.com/embed/u3JGp1_keTQ" />,
