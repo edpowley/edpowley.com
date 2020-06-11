@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6be79dce423e16e091b71ea7c30eb53c",
+    "revision": "895dadc5cfc8dfbafbdd5795c514617d",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "b72c21c92712209ccc0a",
+    "revision": "509ad452c01ab1c288f9",
     "url": "/static/css/main.33098ede.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0f351643.chunk.js"
   },
   {
-    "revision": "b72c21c92712209ccc0a",
-    "url": "/static/js/main.a17d9a2a.chunk.js"
+    "revision": "509ad452c01ab1c288f9",
+    "url": "/static/js/main.43a9e481.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4490eba85f745dfc5179175afd42109",
     "url": "/static/media/augtel-background.e4490eba.jpg"
+  },
+  {
+    "revision": "bda7916ec8192879c87b03e09322a967",
+    "url": "/static/media/autopia-background.bda7916e.jpg"
   },
   {
     "revision": "d4bff4474736794e4c2ec569a835d797",
