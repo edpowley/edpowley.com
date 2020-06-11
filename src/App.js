@@ -94,6 +94,18 @@ class GooglePlayStoreButton extends Component
 
 let projects = [
   {
+    name: "Autopia",
+    description: <>
+      <p>
+        Autopia is a project by Dr Norah Lorway, Arthur Wilson, Dr Edward Powley, John Speakman and Matthew Jarvis from Falmouth University and Dr Louise Rossiter. It uses template based genetic programming to write SuperCollider code with audience feedback determining the fitness function of the evolution for the code. It interfaces with Utopia a system developed at the University of Birmingham by Dr Scott Wilson et al for collaborative, networked live coding performances.
+      </p>
+    </>,
+    technologies: ["C#", "SuperCollider"],
+    buttons: [],
+    embed: <VimeoVideo src="https://player.vimeo.com/video/349044280" />,
+    bgImage: require("./img/autopia-background.jpg")
+  },
+  {
     name: "hiveSynth",
     description: <>
       <p>
@@ -352,7 +364,7 @@ function App() {
               <p>The following is a selection of my software development / creative technology projects,
                 in roughly reverse chronological order.
               </p>
-              <p>I also have an <a href="http://mcts.ai/edpowley">academic homepage</a> with a list of publications.
+              <p>I also have an <a href="http://orangehelicopter.com/academic/">academic homepage</a> with a list of publications.
               </p>
             </div>
           </div>
@@ -361,7 +373,7 @@ function App() {
       { projects.map(p => <Project project={p} />) }
       <footer class="bg-dark">
         <div class="container">
-          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2019</p>
+          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2020</p>
         </div>
       </footer>
   </>);
