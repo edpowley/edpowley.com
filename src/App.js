@@ -364,7 +364,7 @@ function App() {
               <p>The following is a selection of my software development / creative technology projects,
                 in roughly reverse chronological order.
               </p>
-              <p>I also have an <a href="http://orangehelicopter.com/academic/">academic homepage</a> with a list of publications.
+              <p>I also have an <a href="https://edpowley.com/academic/">academic homepage</a> with a list of publications.
               </p>
             </div>
           </div>
@@ -373,7 +373,7 @@ function App() {
       { projects.map(p => <Project project={p} />) }
       <footer class="bg-dark">
         <div class="container">
-          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2020</p>
+          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2021</p>
         </div>
       </footer>
   </>);
