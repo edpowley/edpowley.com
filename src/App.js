@@ -360,7 +360,7 @@ function App() {
           <div class="row">
             <div class="col-12 mb-3">
               <h1>Ed Powley</h1>
-              <h4>Coder / Creative Technologist / AI Researcher / Game Developer / Lecturer / Musician</h4>
+              <h4>Coder / Creative Technologist / AI Researcher / Game Developer / Musician</h4>
               <p>The following is a selection of my software development / creative technology projects,
                 in roughly reverse chronological order.
               </p>
@@ -373,7 +373,7 @@ function App() {
       { projects.map(p => <Project project={p} />) }
       <footer class="bg-dark">
         <div class="container">
-          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2021</p>
+          <p class="m-0 text-center text-white">Copyright &copy; Ed Powley 2023</p>
         </div>
       </footer>
   </>);
